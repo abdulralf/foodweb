@@ -1,0 +1,31 @@
+.carousel-item >img{
+    height: 600px;
+}
+.card :hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.paya{
+    height: 190px;
+}
+span > a > img {
+    margin-right: 10px;
+    color: white;
+}
+.plusMinusDiv{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.plusMinusDiv:hover{
+    background-color: #ccc;
+}
+.plus{
+    color: black;
+}

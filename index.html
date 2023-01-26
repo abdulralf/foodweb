@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+          <img src="icons/foodies-logo.svg" alt="Bootstrap" width="150" height="60"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="fooddishes.html">Food Dishes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactUs.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>  
+           </ul>
+          </div>
+        </div>
+      </nav>
+      <!--slider-->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1578160112054-954a67602b88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvb2RzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block">
+              <h2 >Pakistan's Largest Platform for Foodies!</h2>
+              <p>Bringing Pakistan's first food discovery platform for real foodies. Search your favorite food, give reviews, check out amazing recipes of top chefs and a lot more.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1576402187878-974f70c890a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+             class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block">
+             <!-- <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>-->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1609167830220-7164aa360951?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZHN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" 
+            class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+             <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>-->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--cards-->
+      <div class="container">
+        <h2 class="text-center fw-bold my-5">Discover the scrumptious world of food</h2>
+        <div class="d-flex justify-content-center">
+        <div class="card mx-3" style="width: 18rem;">
+            <img src="icons/Restaurant-Dinning-Table.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold ">Restaurants</h5>
+              <p class="card-text">From Pakistani and Afghani Cuisine to Thai and Chinese Cuisine, discover and savor the scrumptious flavors from all around the globe with Foodies.</p>
+            </div>    </div>
+            <div class="card mx-3" style="width: 18rem;">
+                <img src="icons/The-Wok-Chinese.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold ">Recipes</h5>
+                  <p class="card-text">From the Best Pancake Recipe to Chicken Recipes, Foodies presents you with all the best recipes. Cook and delight your audience with these perfect recipes.</p>
+                </div>  </div> 
+            <div class="card mx-3" style="width: 18rem;">
+                    <img src="icons/Food-Festival.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold ">Events</h5>
+                      <p class="card-text">
+                        As a food-passionate person, do you cherish exploring different food events? Well, we do too! Let's look out for the best upcoming events in town together.</p>
+                    </div>  </div> 
+            </div>
+      </div>
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
